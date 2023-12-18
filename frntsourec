@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="sty.css">
+    <script src="main.js"></script>
+    <link rel="icon" href="./assets/logo.jpg">
+    <title>partly</title>
+</head>
+<body>
+<div class="main">
+    <div class="header">
+        <div class="logo">
+       <div class="icon">
+       <img src="./assets/logo.jpg" alt="" width="50" height="50">
+       </div>
+       <div class="srch">
+        <form>
+            <label for="search"></label>
+            <input type="search" placeholder="search" onmouseenter="searchopenPopup()" >
+            <div class="srch-box" id="openSearchBox"> 
+              <a href=""> <li>Bike Parts</li>  </a>  <hr>
+              <a href=""><li>E-bike Parts</li> </a>  <hr>
+               <a href=""> <li>Car Parts</li> </a>
+            </div>
+            
+            <div class="srchicon">
+            <span class="material-symbols-outlined" >
+                search
+                </span>
+            </div>
+           </form>
+          </div>
+
+            </div>
+           <div class="lgn">
+        <button type="button" onmouseenter="openPopup()" >Login</button>
+     </div>
+     <div class="popup" id="popupBox">
+      <a href=""> <li>My Profile</li>  </a>  <hr>
+      <a href=""> <li>Orders</li>  </a>  <hr>
+      <a href=""> <li>Wish List</li>  </a>  <hr>
+      <a href=""> <li>Already a Customer</li>  </a>  <hr>
+      <a href=""> <li>Sign-in</li>  </a>  <hr>
+        <button onclick="popupClose()">Back</button>
+       </div>
+       <div class="cart-home">
+        <button onclick="cart()">
+        <span class="material-symbols-outlined">
+            shopping_cart
+            </span>
+        </button>
+            </div>
+      </div>
+     </div>
+  
+
+
+     
+<div class="footer">
+    <img src="./assets/logo.jpg" alt="" width="50" height="50">
+    <h2>Partly</h2> 
+ <h3>Customer Service</h3>
+<div class="foot-menu1">
+   <ul>
+    <li>Contact Us</li>
+    <li>Order Status</li>
+    <li>Shipping</li>
+    <li>Returns & Exchange</li>
+    <li>Product Recall</li>
+   
+  </ul>
+</div>
+<h3>About Us</h3>
+<div class="foot-menu1">
+    <ul>
+     <li>Stores</li>
+     <li>Careers</li>
+     <li>Site Map</li>
+     <li>Blog</li>
+     <li>Help</li>
+     <li>DealerShip</li>
+   </ul>
+ </div>
+ <h3>Connect Us</h3>
+<div class="foot-menu1">
+    <ul>
+     <li>Tel</li>
+     <li>Instagram</li>
+     <li>Twitter</li>
+     <li>FaceBook</li>
+     <li>E-mail</li>
+     <li>Discord</li>
+     <li>Google</li>
+   </ul>
+ </div>
+ <hr>
+ <p>
+    ©copyright 2023 Lorem Ipsum placeholder text for use in your graphic,LLC
+ </p>
+</div>
+</body>
+</html>

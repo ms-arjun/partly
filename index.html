@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="sty.css">
+    <script src="main.js"></script>
+    <link rel="icon" href="./assets/logo.jpg">
+    <title>partly</title>
+</head>
+<body>
+<div class="main">
+    <div class="header">
+        <div class="logo">
+       <div class="icon">
+       <img src="./assets/logo.jpg" alt="" width="50" height="50">
+       </div>
+       <div class="srch">
+        <form>
+            <label for="search"></label>
+            <input type="search" placeholder="search" onmouseenter="searchopenPopup()" >
+            <div class="srch-box" id="openSearchBox"> 
+              <a href="bikrparts.html"> <li>Bike Parts</li>  </a>  <hr>
+             <a href=""><li>E-bike Parts</li> </a>  <hr>
+              <a href=""> <li>Car Parts</li> </a>
+            </div>
+            
+            <div class="srchicon">
+            <span class="material-symbols-outlined" >
+                search
+                </span>
+            </div>
+           </form>
+          </div>
+
+            </div>
+           <div class="lgn">
+        <button type="button" onmouseenter="openPopup()" >Login</button>
+     </div>
+     <div class="popup" id="popupBox">
+         <a href=""> <li>My Profile</li>  </a>  <hr>
+         <a href=""> <li>Orders</li>  </a>  <hr>
+         <a href=""> <li>Wish List</li>  </a>  <hr>
+         <a href=""> <li>Already a Customer</li>  </a>  <hr>
+         <a href=""> <li>Sign-in</li>  </a>  <hr>
+        <button onclick="popupClose()">Back</button>
+       </div>
+       <div class="cart-home">
+        <button onclick="cart()">
+        <span class="material-symbols-outlined">
+            shopping_cart
+            </span>
+        </button>
+            </div>
+      </div>
+      <div class="adv">
+        <div class="partly-logo">
+            <img src="./assets/logo.jpg"  width="200" height="200">
+            <h1>Partly</h1>
+            <h3>Buy  your  Automobile  parts  
+               <span> Happily </span></h3>
+        </div>
+       <div class="find">
+         <h3>Find Parts for  your Vehicle</h3>
+         <div class="find-form">
+            <form action="bikeparts2.html" class="opt">
+                <select name="type" id="" >
+                    <option value="Type">Type </option> 
+                    <option value="Bike">Bike</option>
+                    <option value="E-bike">E-bike</option>
+                    <option value="Car">Car</option>
+                </select>
+                <select name="Brand" id="">
+                    <option value="Brand">Brand</option>
+                    <option value="Ampere">Ampere</option>
+                    <option value="Ather">Ather</option>
+                    <option value="Bajaj">Bajaj</option>
+                    <option value="Hero">Hero</option>
+                    <option value="Honda">Honda</option>
+                    <option value="Hyundai">Hyundai</option>
+                    <option value="Kinetics">Kinetics</option>
+                    <option value="Mahindra & Mahindra">Mahindra & Mahindra</option>
+                    <option value="Maruti Suzuki">Maruti Suzuki</option>
+                    <option value="Revolt">Revolt</option>
+                    <option value="Renault">Renault</option>
+                    <option value="Royal Enfield">Royal Enfield</option>
+                    <option value="Yamaha">Yamaha</option>
+                    </select>
+                    <select name="" id="">
+
+                        <option value="Model">Model</option>
+                        <option value="Ather-450X">Ather-450X</option>
+                        <option value="Dominar">Dominar</option>
+                        <option value="Ct-100">Ct-100</option>
+                        <option value="Platina">Platina</option>
+                        <option value="Platina-H gear">Platina-H gear</option>
+                        <option value="Pulsar-150">Pulsar-150</option>
+                        <option value="Revolt400">Revolt400</option>
+                        <option value="Renault Captur">Renault Captur</option>
+                    </select>
+                        <select name="Year" id="" size="2"> 
+                        <option value="Year">Year</option>
+                        <option value="2008" >2008</option>
+                        <option value="2009">2009</option>
+                        <option value="2010">2010</option>
+                        <option value="2011">2011</option>
+                        <option value="2012">2012</option>
+                        <option value="2013">2013</option>
+                        <option value="2014">2014</option>
+                        <option value="2015">2015</option>
+                        <option value="2016">2016</option>
+                        <option value="2017">2017</option>
+                        <option value="2018">2018</option>
+                        <option value="2019">2019</option>
+                        <option value="2020">2020</option>
+                        <option value="2021">2021</option>
+                        <option value="2022">2022</option>
+                        <option value="20">2023</option>
+                    </select>
+                    <input type="submit" value="Search" class="opt-button">
+                   </form>
+                 
+         </div>
+       </div>
+      </div>
+      <div class="main-dis">
+        <div> <a href="bikrparts.html">  <img src="./assets/bike.jpg"  width="300" height="300">   <h2>Bike Parts</h2></a>  </div>
+        <div> <a href="">  <img src="./assets/car.jpg"   width="300" height="300"> <h2>Car Parts</h2>  </a> </div>
+        <div> <a href="">  <img src="./assets/e bike.jpg"   width="300" height="300"> <h2>E-bike Parts</h2>  </a> </div>
+</div>
+<div class="footer">
+    <img src="./assets/logo.jpg" alt="" width="50" height="50">
+    <h2>Partly</h2> 
+ <h3>Customer Service</h3>
+<div class="foot-menu1">
+   <ul>
+    <li>Contact Us</li>
+    <li>Order Status</li>
+    <li>Shipping</li>
+    <li>Returns & Exchange</li>
+    <li>Product Recall</li>
+   
+  </ul>
+</div>
+<h3>About Us</h3>
+<div class="foot-menu1">
+    <ul>
+     <li>Stores</li>
+     <li>Careers</li>
+     <li>Site Map</li>
+     <li>Blog</li>
+     <li>Help</li>
+     <li>DealerShip</li>
+   </ul>
+ </div>
+ <h3>Connect Us</h3>
+<div class="foot-menu1">
+    <ul>
+     <li>Tel</li>
+     <li>Instagram</li>
+     <li>Twitter</li>
+     <li>FaceBook</li>
+     <li>E-mail</li>
+     <li>Discord</li>
+     <li>Google</li>
+   </ul>
+ </div>
+ <hr>
+ <p>
+    ©copyright 2023 Lorem Ipsum placeholder text for use in your graphic,LLC
+ </p>
+</div>
+</body>
+</html>
